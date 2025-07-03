@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noir Genre – Alireza Kaveh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Noir Genre</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="toc.html">Table of Contents</a>
+      <a href="author-kaveh.html">Author</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>This page will feature all articles related to the *Noir* genre, written or curated by Alireza Kaveh.</p>
+      <ul>
+        <li><a href="article-crime-structure.html">Crime and Narrative Structure in Noir Cinema</a></li>
+        <li><a href="article-noir-women.html">The Role of Women in Classic Film Noir</a></li>
+        <li><a href="article-persian-noir.html">A Persian Approach to Noir</a></li>
+        <!-- Add more links here -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Alireza Kaveh</p>
+  </footer>
+</body>
+</html>
