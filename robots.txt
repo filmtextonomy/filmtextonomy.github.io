@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://filmtextonomy.github.io/sitemap.xml
