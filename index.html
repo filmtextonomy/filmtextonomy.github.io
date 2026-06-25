@@ -1,46 +1,158 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Film Taxonomy</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 2rem;
-      color: #333;
-    }
-    header {
-      background-color: #222;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
-    main {
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
-      background: white;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Film Taxonomy</h1>
-    <p>Cinematic Taxonomy for Film Genre Theory</p>
-  </header><nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="articles.html">Articles</a>
-  <a href="toc.html">Table of Contents</a>
-</nav>
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="درگاه رسمی Alireza Kaveh برای دسترسی به کتاب‌ها، مقالات، پروژه‌ها، ویدئوها و راه‌های تماس."
+    >
+    <title>Alireza Kaveh | درگاه</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="ناوبری اصلی">
+        <a class="brand" href="#top" aria-label="Alireza Kaveh">
+          <span class="brand-mark">AK</span>
+          <span>
+            <strong>Alireza Kaveh</strong>
+            <small>درگاه رسمی</small>
+          </span>
+        </a>
+        <div class="nav-links">
+          <a href="#books">کتاب‌ها</a>
+          <a href="articles.html">مقالات</a>
+          <a href="#projects">پروژه‌ها</a>
+          <a href="#youtube">یوتیوب</a>
+          <a href="#contact">تماس</a>
+        </div>
+      </nav>
+    </header>
 
-  <main>
-    <h2>Welcome</h2>
-    <p>This page is dedicated to exploring the taxonomy, tone, and traditions of cinematic genres — globally and critically.</p>
-  </main>
-</body>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Cinema, writing, research</p>
+          <h1 id="hero-title">درگاه آثار و مسیرهای ارتباطی علیرضا کاوه</h1>
+          <p class="hero-text">
+            این صفحه برای دسترسی سریع به کتاب‌ها، مقاله‌ها، پروژه‌های در حال توسعه،
+            ویدئوها و کانال‌های ارتباطی ساخته شده است.
+          </p>
+          <div class="hero-actions" aria-label="دسترسی‌های سریع">
+            <a class="button primary" href="#books">مشاهده کتاب‌ها</a>
+            <a class="button secondary" href="#contact">ارتباط مستقیم</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="خلاصه درگاه">
+          <div>
+            <span class="panel-number">01</span>
+            <p>کتاب‌ها و پرونده‌های پژوهشی</p>
+          </div>
+          <div>
+            <span class="panel-number">02</span>
+            <p>مقالات، یادداشت‌ها و جستارهای سینمایی</p>
+          </div>
+          <div>
+            <span class="panel-number">03</span>
+            <p>پروژه‌ها، ویدئوها و راه‌های همکاری</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section" id="books" aria-labelledby="books-title">
+        <div class="section-heading">
+          <p class="eyebrow">Books</p>
+          <h2 id="books-title">کتاب‌ها</h2>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <span class="card-label">در حال تکمیل</span>
+            <h3>فهرست کتاب‌ها</h3>
+            <p>معرفی کتاب‌ها، نسخه‌های در دست آماده‌سازی، لینک خرید یا دریافت، و توضیح کوتاه هر اثر.</p>
+            <a href="#contact">درخواست اطلاعات</a>
+          </article>
+          <article class="card">
+            <span class="card-label">پیشنهادی</span>
+            <h3>پرونده‌های موضوعی</h3>
+            <p>دسته‌بندی آثار بر اساس سینما، موسیقی، تاریخ، نقد، آموزش یا پروژه‌های پژوهشی.</p>
+            <a href="#projects">دیدن پروژه‌ها</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section muted" id="articles" aria-labelledby="articles-title">
+        <div class="section-heading">
+          <p class="eyebrow">Articles</p>
+          <h2 id="articles-title">مقالات و یادداشت‌ها</h2>
+        </div>
+        <div class="feature-row">
+          <div>
+            <h3>یادداشت‌های سینمایی، نقدها و متن‌های پژوهشی</h3>
+            <p>
+              این بخش به آرشیو مقاله‌ها، نوشته‌های منتشرشده، و صفحه‌های مستقل
+              درباره نظریه ژانر و مطالعات سینما وصل می‌شود.
+            </p>
+          </div>
+          <a class="button secondary" href="articles.html">آرشیو مقالات</a>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">پروژه‌ها</h2>
+        </div>
+        <div class="grid three">
+          <article class="card compact">
+            <h3>دانشنامه و فهرست‌ها</h3>
+            <p>پروژه‌های گردآوری، دسته‌بندی، و ساخت مسیرهای دسترسی به داده‌های سینمایی.</p>
+          </article>
+          <article class="card compact">
+            <h3>آموزش و کارگاه</h3>
+            <p>برنامه‌های آموزشی، کارگاه‌های نوشتن، تحلیل فیلم و تولید محتوای پژوهشی.</p>
+          </article>
+          <article class="card compact">
+            <h3>همکاری و سفارش</h3>
+            <p>راه ارتباطی برای همکاری‌های محتوایی، پژوهشی، رسانه‌ای و سینمایی.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="youtube" aria-labelledby="youtube-title">
+        <div class="section-heading">
+          <p class="eyebrow">YouTube</p>
+          <h2 id="youtube-title">یوتیوب و ویدئوها</h2>
+        </div>
+        <div class="video-placeholder">
+          <div class="play-mark" aria-hidden="true"></div>
+          <p>جایگاه معرفی کانال، آخرین ویدئوها یا پلی‌لیست‌های منتخب</p>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">تماس</h2>
+        </div>
+        <div class="contact-box">
+          <p>
+            برای همکاری، پیشنهاد پروژه، پرسش درباره کتاب‌ها یا پیگیری انتشار آثار،
+            از مسیرهای زیر استفاده کنید.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:hello@example.com">ایمیل</a>
+            <a href="#" aria-label="لینک اینستاگرام">اینستاگرام</a>
+            <a href="#" aria-label="لینک تلگرام">تلگرام</a>
+            <a href="#" aria-label="لینک یوتیوب">یوتیوب</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Alireza Kaveh</p>
+      <a href="#top">بازگشت به بالا</a>
+    </footer>
+  </body>
 </html>
