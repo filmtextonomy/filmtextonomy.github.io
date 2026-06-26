@@ -1,12 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <title>Articles</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>آرشیو مقالات | درگاه علیرضا کاوه</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <h1>Articles</h1>
-  <ul>
+<body class="archive-page">
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="ناوبری اصلی">
+      <a class="brand" href="index.html" aria-label="Alireza Kaveh">
+        <span class="brand-mark">AK</span>
+        <span>
+          <strong>Alireza Kaveh</strong>
+          <small>درگاه رسمی</small>
+        </span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#books">کتاب‌ها</a>
+        <a href="articles.html">مقالات</a>
+        <a href="index.html#projects">پروژه‌ها</a>
+        <a href="index.html#contact">تماس</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="archive-shell">
+    <section class="archive-heading" aria-labelledby="archive-title">
+      <p class="eyebrow">Articles</p>
+      <h1 id="archive-title">آرشیو مقالات و پرونده‌ها</h1>
+      <p>
+        مسیرهای خواندن درباره نظریه ژانر، فرم‌های سینمایی، نویسندگان کلیدی و
+        پرونده‌های در حال گسترش.
+      </p>
+    </section>
+
+    <ul class="article-list">
     <li><a href="article1.html">What Is a Film Genre?</a></li>
     <li><a href="rick-altman-genre-theory.html">Rick Altman and Film Genre Theory</a></li>
     <li><a href="steve-neale-genre-theory.html">Steve Neale and Film Genre Theory</a></li>
@@ -19,7 +48,7 @@
     <li><a href="alireza-kaveh-genre-theory.html">Alireza Kaveh and the Five-Part Cinematic Taxonomy</a></li>
     <li><a href="steve-neale-crime-genre-theory.html">Steve Neale and Crime Genre Theory</a></li>
     <li><a href="thomas-elsaesser-melodrama-theory.html">Thomas Elsaesser and the Theory of Melodrama</a></li>
-    <li><a href="rick-altman-musical-genre.html">Rick Altman and the Musical Genre</a></li>
+    <li><a class="is-featured" href="rick-altman-musical-genre.html">وقتی ژانر آواز می‌خواند: ریک آلتمن و موزیکال</a></li>
     <li><a href="thomas-schatz-western-genre-theory.html">Thomas Schatz and the Structural Approach to the Western Genre</a></li>
     <li><a href="alireza-kaveh-film-noir-theory.html">Alireza Kaveh and the Elusive Nature of Film Noir</a></li>
     <li><a href="robin-wood-horror-genre-theory.html">Robin Wood and the Ideological Power of Horror</a></li>
@@ -41,8 +70,9 @@
     <li><a href="articles/genre/genre-mobile.html">Genre in the Age of Smartphones and Social Media</a></li>
     <li><a href="articles/genre/genre-queer.html">Queer Genre Theory and LGBTQ+ Film Forms</a></li>
     <li><a href="/articles/genre/genre-postcolonial.html">Genre and Postcolonial Theory – Amara Singh</a></li>
-  </ul>
+    </ul>
 
-  <p><a href="index.html">Back to Home</a></p>
+    <p class="archive-back"><a class="button secondary" href="index.html">بازگشت به درگاه</a></p>
+  </main>
 </body>
 </html>
