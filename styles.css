@@ -490,6 +490,44 @@ h3 {
   margin-top: 0;
 }
 
+.share-panel {
+  display: grid;
+  gap: 18px;
+  margin: 38px 0;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.share-panel h2 {
+  margin-top: 0;
+}
+
+.share-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.share-links a {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(246, 242, 234, 0.72);
+  color: var(--text);
+  font-weight: 700;
+}
+
+.share-links a:hover {
+  border-color: rgba(183, 53, 45, 0.5);
+  color: var(--accent);
+}
+
 .video-study {
   display: grid;
   gap: 18px;
